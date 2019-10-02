@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Page Title</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+    <body> 
+    <div class="top"><i class="far fa-arrow-alt-circle-up"></i></div>
+    <header id="main">
+        <div class="head-text" id="h-text">INTIGRA<small class="sm-text">.org</small></div>
+        <p id="text">[Science For Every Corner]</p>
+        <div id="mySidenav" class="sidenav">
+        <center>
+            <span class="closebtn" onclick="closeNav()">&times;</span>
+            <div class="url" onclick="closeNav()">
+                <a href="#home">Home</a> 
+                <a href="#about">About</a> 
+                <a href="#gallery">Gallery</a> 
+                <a href="#signin">Sign In</a>
+                <a href="#follow">Follow Us</a>
+            </div>
+        </center>
+        </div> 
+        <span class="sp-main" id="menu" onclick="openNav()">☰Menu</span>
+    </header>
+    
+    <section class="container-main">
+        <div class="container" id="home">
+            <span class="heading">Home</span><hr>
+            <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<span id="show"> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata</span>
+            </p>
+            <button class="more" id="btn" onclick="show()">Read More</button><br>
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+        
+        <div class="container" id="about">
+            <span class="heading">About Us</span><hr>
+            <p class="text">
+            Intigra Science Org. is a non-profit organization which works for the welfare, development and spread of science all around Bangladesh. We go by the motto-'Science For Every Corner'. Especially our target is those areas of Bangladesh, where science didn't have a chance to collaborate.<span id="show2"> We are working basically for the students from class 6 to 10 but we have a goal to spread our activities among every sector of the society. We are trying to enrich their interest and build a science based attitude among them. We organize camps, workshops, seminars, science classes, olympiads etc in various school across the country.</span>
+            </p>
+            <button class="more" id="btn2" onclick="show2()">Read More</button><br>
+            <a href="#gallery"><i class="fas fa-chevron-down"></i></a>
+        </div>
+        
+        <div class="container" id="gallery">
+            <span class="heading">Gallery</span><hr>
+            <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<span id="show3"> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata</span>
+            </p>
+            <button class="more" id="btn3" onclick="show3()">Read More</button><br>
+            <a href="#signin"><i class="fas fa-chevron-down"></i></a>
+        </div>
+        
+        <div class="form-main" id="signin">
+            <span class="heading">Sign In</span><hr>
+            <center>
+            <div class="form">
+                <form method="POST">
+                    <center>
+                    <div class="form-head">
+                        <i class="fas fa-user"></i> 
+                    </div>
+                    </center>
+                    <label><i class="fas fa-envelope"></i></label>
+                    <input type="email" placeholder="Your E-mail" autocomplete="off" required>
+                    <br>
+            
+                    <label><i class="fas fa-lock"></i></label>
+                    <input type="password" placeholder="Password" required>
+                    <br>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+            </center>
+        </div>
+    </section>
+    
+        <footer id="follow">
+        <center>
+        <p class="foot-text">Follow Us On</p>
+            <a href="https://www.facebook.com/intigra.org/" target="_blank">
+            <i class="fab fa-facebook-square"></i></a>
+            <a href="" target="_blank">
+            <i class="fab fa-instagram"></i></a>
+            <a href="" target="_blank">
+            <i class="fab fa-google-plus-square"></i></a>
+            </center>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.js">
+    <script src="js/main.js">
+</script>
+    </body>
+</html>
